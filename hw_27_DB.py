@@ -79,7 +79,7 @@ VALUES
         (70011, 75.29, '2012-08-17', 3003, 5007),
         (70013, 3045.6, '2012-04-25', 3002, 5001);
 """
-# execute_query(connection, fulling_users_table, 'adding data to the table')
+execute_query(connection, fulling_users_table, 'adding data to the table')
 
 # query for 1st task
 first_query = "select ord_no as 'Order number', ord_date 'Order date'," \
